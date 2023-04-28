@@ -1,0 +1,56 @@
+.dashboard_header {
+  background-color: white;
+  height: 90px;
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 10px #c8cae2;
+  text-align: center;
+  box-shadow: 0 0 5px 0 rgb(0 0 0 / 10%), 0 0 1px 0 rgb(0 0 0 / 10%);
+  background-color: rgba(255, 255, 255, 1);
+}
+.dashboard__sidebar {
+  position: fixed;
+  width: 60px;
+  height: 100vh;
+  left: 0px;
+  top: 90px;
+  transition: width 0.2s;
+  transition-timing-function: linear;
+  box-shadow: 0 0 5px 0 rgb(0 0 0 / 10%), 0 0 1px 0 rgb(0 0 0 / 10%);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.leftsidebar_active {
+  width: 300px;
+  left: 0px;
+}
+
+.dashboard__menu_label {
+  display: none;
+}
+.leftsidebar_active_label {
+  display: block;
+  margin-left: 6px;
+}
+.dashboard__menu_icon img {
+  width: 40px;
+  max-height: 40px;
+  height: 40px;
+  max-width: 40px;
+  margin-left: 4px;
+}
+
+.dashboard__menu_item {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 8px;
+  border-bottom: 1px solid #edeff6;
+  cursor: pointer;
+}
+
+.dashboard__menu_item:hover {
+  background-color: #edeff6;
+}

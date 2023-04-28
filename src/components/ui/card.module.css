@@ -1,0 +1,12 @@
+.card {
+  background-color: #ffffff;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  color: black;
+  padding: 20px;
+}

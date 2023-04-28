@@ -1,0 +1,9 @@
+.input {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  border-radius: 4px;
+}
+.input--large {
+  color: red;
+}
